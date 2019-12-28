@@ -3,6 +3,11 @@ import { expect } from "chai";
 import "mocha";
 
 describe("canary functions", () => {
+   // should return true
+   it("should return true", () => {
+      expect(true).to.equal(true);
+   });
+
    // hello world
    it("should return hello world", () => {
       const result = hello();
