@@ -2,9 +2,11 @@
    "compilerOptions": {
       "module": "commonjs",
       "baseUrl": "./",
+      "outDir": "build",
       "target": "ES6",
       "moduleResolution": "node",
       "esModuleInterop": true,
+      "watch": true,
       "lib": ["ES6"],
       "allowJs": true,
       "forceConsistentCasingInFileNames": true
