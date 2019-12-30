@@ -17,7 +17,6 @@
       "build:once": "npx tsc",
       "build:watch": "npx tsc -w --preserveWatchOutput",
       "build:production": "npx tsc --outDir './build'",
-      "run": "",
       "test": "mocha -r ts-node/register **/*.spec.ts"
    }
 }
