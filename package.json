@@ -14,9 +14,9 @@
       "typescript": "^3.7.4"
    },
    "scripts": {
-      "build": "npx tsc",
+      "build:once": "npx tsc",
       "build:watch": "npx tsc -w --preserveWatchOutput",
-      "build:production":"npx tsc --outDir './build'",
+      "build:production": "npx tsc --outDir './build'",
       "run": "",
       "test": "mocha -r ts-node/register **/*.spec.ts"
    }
